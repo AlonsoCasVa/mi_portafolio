@@ -4,15 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Personal HTML-5 Template </title>
-    <meta name="description" content="">
+    <title>Portafolio | Alonso Castellanos Vázquez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Manifest & Favicon -->
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-    <!-- CSS here -->
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
@@ -25,13 +27,13 @@
 </head>
 
 <body>
+    <!-- HEADER -->
     <header>
-        <!-- Header Start -->
         <div class="header-area">
             <div class="main-header header-sticky">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <!-- Logo + Foto -->
+                        <!-- Logo + Nombre -->
                         <div class="col-xl-2 col-lg-2 col-md-3">
                             <div class="logo d-flex align-items-center">
                                 <img src="assets/img/profile.jpeg" alt="Foto de Alonso Castellanos"
@@ -42,24 +44,21 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Menú de navegación -->
+                        <!-- Menú -->
                         <div class="col-xl-10 col-lg-10 col-md-9">
                             <div class="menu-main d-flex align-items-center justify-content-end">
-                                <!-- Main-menu -->
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="index.html">Inicio</a></li>
+                                            <li><a href="#inicio">Inicio</a></li>
                                             <li><a href="#sobre-mi">Sobre mí</a></li>
+                                            <li><a href="#proyectos">Proyectos</a></li>
                                             <li><a href="contact.html">Contacto</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
@@ -67,10 +66,11 @@
                 </div>
             </div>
         </div>
-        <!-- Header End -->
     </header>
-    <main>
-        <!-- slider Area Start-->
+
+    <!-- MAIN -->
+    <main id="inicio">
+        <!-- HERO -->
         <div class="slider-area">
             <div class="single-slider slider-height d-flex align-items-center">
                 <div class="container">
@@ -78,21 +78,16 @@
                         <!-- Texto -->
                         <div class="col-xl-6 col-lg-6 col-md-12">
                             <div class="hero__caption">
-                                <h1 data-animation="fadeInUp" data-delay=".6s">Soy Alonso Castellanos Vázquez</h1>
-                                <p data-animation="fadeInUp" data-delay=".8s">
-                                    Desarrollador Full Stack Java e Ingeniero Industrial con enfoque analítico y
-                                    creativo
-                                    para la resolución de problemas. Soy una persona proactiva y perseverante, con
-                                    facilidad
-                                    para aprender nuevas tecnologías y adaptarme a distintos entornos. Mi propósito
-                                    profesional
-                                    es diseñar soluciones eficientes que optimicen procesos y mejoren la experiencia del
-                                    usuario
-                                    a través del desarrollo de software de calidad.
+                                <h1>Soy Alonso Castellanos Vázquez</h1>
+                                <p>
+                                    Desarrollador Full Stack Java e Ingeniero Industrial con enfoque analítico y creativo
+                                    para la resolución de problemas. Proactivo, perseverante y apasionado por aprender nuevas
+                                    tecnologías, con el objetivo de crear soluciones que optimicen procesos y mejoren la
+                                    experiencia del usuario.
                                 </p>
                             </div>
                         </div>
-                        <!-- Foto al lado -->
+                        <!-- Imagen -->
                         <div class="col-xl-6 col-lg-6 col-md-12 text-center">
                             <img src="assets/img/profile.jpeg" alt="Foto de Alonso Castellanos"
                                 style="max-width: 80%; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
@@ -101,30 +96,28 @@
                 </div>
             </div>
         </div>
-        <!-- slider Area End-->
-        <!-- About Area start -->
+
+        <!-- SOBRE MÍ -->
         <section class="about-area section-paddingt30" id="sobre-mi">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="about-caption mb-50">
-                            <h3>Desarrollador full stack JAVA</h3>
-                            <p class="pera1"></p>
+                            <h3>Desarrollador Full Stack Java</h3>
                             <p>
-                                Soy Alonso Castellanos Vázquez, desarrollador Full Stack Java e Ingeniero Industrial.
-                                Me especializo en crear soluciones web eficientes, combinando habilidades técnicas con
-                                un enfoque analítico para resolver problemas complejos y optimizar procesos.
+                                Soy Ingeniero Industrial y Desarrollador Full Stack Java. Me apasiona diseñar sistemas web
+                                eficientes y escalables, combinando lógica técnica y pensamiento creativo.
                             </p>
                             <p>
-                                Me considero proactivo, perseverante y con facilidad para aprender nuevas tecnologías,
-                                siempre buscando mejorar la experiencia del usuario y la calidad del software.
+                                Me especializo en Java, Spring Boot, bases de datos SQL, y frameworks modernos de frontend.
+                                Disfruto resolver problemas complejos y colaborar en equipos ágiles.
                             </p>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <div class="about-caption2">
                             <h3>¿Quieres saber<br>algo más?</h3>
-                            <p>Contáctame</p>
+                            <p>Contáctame:</p>
                             <div class="send-cv">
                                 <a href="mailto:alonsocasva@gmail.com">alonsocasva@gmail.com</a>
                             </div>
@@ -133,8 +126,60 @@
                 </div>
             </div>
         </section>
-        <!-- About Area End -->
-        <!-- Categories Area Start -->
+
+        <!-- PROYECTOS -->
+        <section class="projects-area section-padding3" id="proyectos">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        <div class="section-tittle text-center mb-70">
+                            <h2>Proyectos</h2>
+                            <p>Algunos proyectos desarrollados como Full Stack Developer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carrusel -->
+                <div class="owl-carousel project-carousel">
+                    <!-- Proyecto 1 -->
+                    <div class="single-project text-center p-3 shadow-sm rounded">
+                        <img src="assets/img/almadetortuga.png" alt="Alma de Tortuga" class="img-fluid rounded mb-3"
+                            style="height:250px; object-fit:cover;">
+                        <h5>Alma de Tortuga</h5>
+                        <p>E-commerce cómo proyecto terminal del Generation.</p>
+                        <a href="https://github.com/CH60-Equipo4/ALMA-DE-TORTUGA---Ecommerce.git" target="_blank"
+                            class="btn hero-btn mt-2">
+                            <i class="fab fa-github me-1"></i> Ver repositorio
+                        </a>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="single-project text-center p-3 shadow-sm rounded">
+                        <img src="assets/img/projects/proyecto2.jpg" alt="Sport Legend" class="img-fluid rounded mb-3"
+                            style="height:250px; object-fit:cover;">
+                        <h5>Sport Legend</h5>
+                        <p>Landing page de una tienda deportiva creada durante una hackathon.</p>
+                        <a href="https://github.com/rosaainz/SportLegend.git" target="_blank" class="btn hero-btn mt-2">
+                            <i class="fab fa-github me-1"></i> Ver repositorio
+                        </a>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="single-project text-center p-3 shadow-sm rounded">
+                        <img src="assets/img/projects/proyecto3.jpg" alt="Fan Page de Coldplay" class="img-fluid rounded mb-3"
+                            style="height:250px; object-fit:cover;">
+                        <h5>Fan Page de Coldplay</h5>
+                        <p>Fan page interactiva dedicada a Coldplay.</p>
+                        <a href="https://github.com/HorusHdez/Sitio-web-Coldplay.git" target="_blank"
+                            class="btn hero-btn mt-2">
+                            <i class="fab fa-github me-1"></i> Ver repositorio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
         <section class="categories-area section-padding3">
             <div class="container">
                 <div class="row">
@@ -149,213 +194,91 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span><img src="assets/img/icons/java.png" alt="Java"
-                                        style="width:50px; height:50px;"></span>
+                                <img src="assets/img/icons/java.png" alt="Java" style="width:50px; height:50px;">
                             </div>
                             <div class="cat-cap">
                                 <h5>Java</h5>
-                                <p>Desarrollo de aplicaciones backend robustas y escalables con Java y Spring Boot.</p>
+                                <p>Desarrollo backend con Java y Spring Boot.</p>
                             </div>
                         </div>
                     </div>
-
                     <!-- Python -->
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span><i class="fab fa-python"></i></span>
+                                <i class="fab fa-python"></i>
                             </div>
                             <div class="cat-cap">
                                 <h5>Python</h5>
-                                <p>Automatización, scripts y desarrollo de aplicaciones con Python para distintos
-                                    propósitos.</p>
+                                <p>Automatización y scripts.</p>
                             </div>
                         </div>
                     </div>
-
-                    <!-- JavaScript / HTML / CSS -->
+                    <!-- Frontend -->
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span><i class="fab fa-js-square"></i></span>
+                                <i class="fab fa-js-square"></i>
                             </div>
                             <div class="cat-cap">
-                                <h5>Frontend Web</h5>
-                                <p>Desarrollo de páginas web con HTML, CSS y JavaScript, interfaces funcionales y
-                                    responsivas.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- SQL -->
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat text-center mb-50">
-                            <div class="cat-icon">
-                                <span><i class="fas fa-database"></i></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5>SQL</h5>
-                                <p>Diseño y optimización de bases de datos relacionales para aplicaciones de alto
-                                    rendimiento.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Git / GitHub -->
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat text-center mb-50">
-                            <div class="cat-icon">
-                                <span><img src="assets/img/icons/GitHub.png" alt="Java"
-                                        style="width:50px; height:50px;"></span>
-
-                            </div>
-                            <div class="cat-cap">
-                                <h5>Git / GitHub</h5>
-                                <p>Control de versiones y colaboración en proyectos con Git y GitHub.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Scrum / Jira -->
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat text-center mb-50">
-                            <div class="cat-icon">
-                                <span><img src="assets/img/icons/Jira.png" alt="Java"
-                                        style="width:50px; height:50px;"></span>
-                            </div>
-                            <div class="cat-cap">
-                                <h5>Gestión Ágil</h5>
-                                <p>Metodologías ágiles como Scrum y gestión de proyectos con Jira.</p>
+                                <h5>Frontend</h5>
+                                <p>HTML, CSS, JavaScript, diseño responsivo.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Brand Area Start -->
-        <div class="brand-area pb-bottom">
-            <div class="container">
-                <div class="brand-active brand-border pt-50 pb-40">
-                    <div class="single-brand">
-                        <img src="assets/img/gallery/brand1.png" alt="">
-                    </div>
-                    <div class="single-brand">
-                        <img src="assets/img/gallery/brand2.png" alt="">
-                    </div>
-                    <div class="single-brand">
-                        <img src="assets/img/gallery/brand3.png" alt="">
-                    </div>
-                    <div class="single-brand">
-                        <img src="assets/img/gallery/brand4.png" alt="">
-                    </div>
-                    <div class="single-brand">
-                        <img src="assets/img/gallery/brand2.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Brand Area End -->
-        <!-- Contact Info Start -->
-    </main>
-    <footer>
-        <!-- Footer Start -->
+
+        <!-- FOOTER -->
         <footer>
             <div class="footer-area">
-                <div class="container">
-                    <!-- Footer Top -->
-                    <div class="footer-top footer-padding">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6">
-                                <div class="footer-top-cap text-center">
-                                    <!-- Puedes poner tu logo o foto -->
-                                    <img src="assets/img/profile.jpeg" alt="Alonso Castellanos"
-                                        style="width:100px; border-radius:50%;">
-                                    <span><a href="mailto:alonsocasva@gmail.com">alonsocasva@gmail.com</a></span>
-                                    <p>Cuernavaca, Morelos</p>
-                                </div>
-                                <div style="margin-top:15px; text-align:center;">
-                                    <a href="assets/doc/CV_Alonso_Castellanos.pdf" download class="btn hero-btn">
-                                        <i class="fas fa-download" style="margin-right:8px;"></i> Descargar CV
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="container text-center">
+                    <img src="assets/img/profile.jpeg" alt="Alonso Castellanos"
+                        style="width:100px; border-radius:50%; margin-bottom:10px;">
+                    <p><a href="mailto:alonsocasva@gmail.com">alonsocasva@gmail.com</a></p>
+                    <p>Cuernavaca, Morelos</p>
+                    <a href="assets/doc/CV_Alonso_Castellanos.pdf" download class="btn hero-btn">
+                        <i class="fas fa-download" style="margin-right:8px;"></i> Descargar CV
+                    </a>
+                    <div class="footer-social mt-3">
+                        <a href="https://github.com/alonsocasva" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/alonsocasva/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/alonsocav/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
                     </div>
-
-                    <!-- Footer Bottom -->
-                    <div class="footer-bottom">
-                        <div class="row d-flex justify-content-between align-items-center">
-                            <div class="col-xl-9 col-lg-8">
-                                <div class="footer-copy-right text-center text-lg-start">
-                                    <p>
-                                        &copy;
-                                        <script>document.write(new Date().getFullYear());</script> Alonso Castellanos.
-                                        Todos los derechos reservados.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4">
-                                <!-- Footer Social -->
-                                <div class="footer-social f-right">
-                                    <a>Conéctate</a>
-                                    <a href="https://github.com/alonsocasva" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                    <a href="https://www.linkedin.com/in/alonsocasva/" target="_blank"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.instagram.com/alonsocav/" target="_blank"><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="mt-3">&copy; <script>document.write(new Date().getFullYear());</script> Alonso
+                        Castellanos. Todos los derechos reservados.</p>
                 </div>
             </div>
-            <!-- Scroll Up -->
-            <div id="back-top">
-                <a title="Ir arriba" href="#"><i class="fas fa-level-up-alt"></i></a>
-            </div>
         </footer>
-        <!-- Footer End -->
-        <!-- Footer End-->
-    </footer>
-    <!-- Scroll Up -->
-    <div id="back-top">
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-    </div>
+    </main>
 
-    <!-- JS here -->
-    <!-- All JS Custom Plugins Link Here here -->
-    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-    <!-- Jquery, Popper, Bootstrap -->
-    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <!-- Jquery Mobile Menu -->
-    <script src="./assets/js/jquery.slicknav.min.js"></script>
+    <!-- JS -->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
 
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <!-- One Page, Animated-HeadLin -->
-    <script src="./assets/js/wow.min.js"></script>
-    <script src="./assets/js/animated.headline.js"></script>
-    <script src="./assets/js/jquery.magnific-popup.js"></script>
-
-    <!-- Nice-select, sticky -->
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
-    <script src="./assets/js/jquery.sticky.js"></script>
-
-    <!-- contact js -->
-    <script src="./assets/js/contact.js"></script>
-    <script src="./assets/js/jquery.form.js"></script>
-    <script src="./assets/js/jquery.validate.min.js"></script>
-    <script src="./assets/js/mail-script.js"></script>
-    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-
-    <!-- Jquery Plugins, main Jquery -->
-    <script src="./assets/js/plugins.js"></script>
-    <script src="./assets/js/main.js"></script>
-
+    <!-- Activar carrusel -->
+    <script>
+        $(document).ready(function () {
+            $(".project-carousel").owlCarousel({
+                items: 3,
+                margin: 30,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                smartSpeed: 800,
+                dots: true,
+                nav: false,
+                responsive: {
+                    0: { items: 1 },
+                    768: { items: 2 },
+                    1200: { items: 3 }
+                }
+            });
+        });
+    </script>
 </body>
-
 </html>
